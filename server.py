@@ -13,3 +13,7 @@ def detect_emotion():
         else:    
             stmt = f"For the given statement, the system response is 'anger': {emotion_dict['anger']} , 'disgust' : {emotion_dict['disgust']} , 'fear' : {emotion_dict['fear']}, 'joy' : {emotion_dict['joy']} and 'sadness' : {emotion_dict['sadness']}. The dominant emtion is {emotion_dict['dominant_emotion']}"
             return stmt
+
+
+
+# test
